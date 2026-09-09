@@ -214,24 +214,34 @@
         "valueType": "string"
       },
       {
-        "component": "txt",
+        "component": "text",
         "name": "button1Text",
         "label": "Button 1 Text"
       },
       {
         "component": "aem-content",
         "name": "button1Link",
-        "label": "Button 1 Text"
+        "label": "Button 1 Link"
       },
       {
-        "component": "txt",
+        "component": "text",
         "name": "button2Text",
         "label": "Button 2 Text"
       },
       {
         "component": "aem-content",
-        "name": "button1Link",
-        "label": "Button 2 Text"
+        "name": "button2Link",
+        "label": "Button 2 Link"
+      },
+      {
+        "component": "text",
+        "name": "button3Text",
+        "label": "Button 3 Text"
+      },
+      {
+        "component": "aem-content",
+        "name": "button3Link",
+        "label": "Button 3 Link"
       }
     ]
   }
