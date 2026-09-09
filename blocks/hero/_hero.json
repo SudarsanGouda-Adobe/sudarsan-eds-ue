@@ -40,6 +40,13 @@
           "value": "",
           "label": "Text",
           "valueType": "string"
+        },
+         {
+          "component": "text",
+          "name": "button",
+          "value": "",
+          "label": "Button",
+          "valueType": "string"
         }
       ]
     }
