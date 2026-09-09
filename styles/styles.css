@@ -15,9 +15,10 @@
   --background-color: white;
   --light-color: #f8f8f8;
   --dark-color: #505050;
-  --text-color: #131313;
+  --text-color: #0f1a14;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
+  --button-box-shadow:#e8651b;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -190,7 +191,7 @@ button.button {
   text-overflow: ellipsis;
   white-space: nowrap;
   letter-spacing:.150em;
-  box-shadow: 0.150em 0.150em 0 #ff6b1a;
+  box-shadow: 0.150em 0.150em 0 var(--button-box-shadow);
 }
 
 a.button[aria-disabled="true"],
