@@ -214,11 +214,24 @@
         "valueType": "string"
       },
       {
-        "component": "text",
-        "name": "button",
-        "value": "",
-        "label": "Button",
-        "valueType": "string"
+        "component": "txt",
+        "name": "button1Text",
+        "label": "Button 1 Text"
+      },
+      {
+        "component": "aem-content",
+        "name": "button1Link",
+        "label": "Button 1 Text"
+      },
+      {
+        "component": "txt",
+        "name": "button2Text",
+        "label": "Button 2 Text"
+      },
+      {
+        "component": "aem-content",
+        "name": "button1Link",
+        "label": "Button 2 Text"
       }
     ]
   }
