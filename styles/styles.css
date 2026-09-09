@@ -189,6 +189,8 @@ button.button {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  letter-spacing:.150em;
+  box-shadow: 0.150em 0.150em 0 #ff6b1a;
 }
 
 a.button[aria-disabled="true"],
