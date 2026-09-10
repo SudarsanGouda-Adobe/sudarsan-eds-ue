@@ -22,7 +22,7 @@
   --orange-bg:#e8651b;
   --button-box-shadow:var(--orange-bg);
 
---forest-green: #0b1f1a;
+--forest-green: #0f1a14;
 --warm-orange: #e8651b;
 --soft-cream: #f5f1eb;
 --footer-bg:#0b1f1a;
@@ -310,7 +310,6 @@ main img {
 
 /* sections */
 main > .section {
-  /* margin: 40px 0; */
   margin: 0;
 }
 

@@ -20,6 +20,7 @@
   margin-right: auto;
   color: var(--background-color);
 }
+.hero p{color: var(--white-bg);}
 
 .hero picture {
   position: absolute;
