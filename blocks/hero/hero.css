@@ -7,7 +7,12 @@
   position: relative;
   padding: 40px 24px;
   min-height: 300px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+.section.hero-container{background: transparent;margin-bottom: 0;}
 
 .hero h1 {
   max-width: 1200px;
@@ -30,6 +35,12 @@
   height: 100%;
 }
 
+.hero > div:nth-child(2) p:first-child{display: inline-block;
+  background-color:var(--orange-bg);color: var(--white-bg);text-transform: uppercase;padding: 0.25em 0.75em;border-radius: 0.75em;font-size: var(--body-font-size-xs);
+}
+.hero-button{display: flex;flex-direction: row;gap: 16px;text-align: center;}
+.hero-button .button-wrapper{margin: 0;}
+
 @media (width >= 900px) {
   .hero {
     padding: 40px 32px;
@@ -39,7 +50,8 @@
 
 /**for big screen with 980px and center conter */
 .hero > div:nth-child(2) > div,
-.hero > div:nth-child(3) > div {
+.hero > div:nth-child(3) > div,
+.hero > .hero-button   {
   max-width: 980px;
   margin: 0 auto;
   width: 100%;

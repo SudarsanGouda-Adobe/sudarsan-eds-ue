@@ -33,6 +33,14 @@
             {
               "name": "Highlight",
               "value": "highlight"
+            },
+            {
+              "name": "Soft Cream",
+              "value": "cream"
+            },
+             {
+              "name": "SForest Green",
+              "value": "forest-green"
             }
           ]
         }

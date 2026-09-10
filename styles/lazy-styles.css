@@ -1,0 +1,4 @@
+.section{background:transparent}
+main .section.highlight{background: var(--warm-orange)!important;}
+.section.cream{background: var(--soft-cream);}
+.section.forest-green{background: var(--forest-green);color: (--white-bg);}
