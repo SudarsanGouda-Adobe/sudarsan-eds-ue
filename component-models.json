@@ -168,6 +168,13 @@
         "multi": false
       },
       {
+        "component": "text",
+        "name": "Eyebro",
+        "value": "",
+        "label": "Eyebro",
+        "valueType": "string"
+      },
+      {
         "component": "richtext",
         "name": "text",
         "value": "",
