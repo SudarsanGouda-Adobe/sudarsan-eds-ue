@@ -2,6 +2,7 @@ footer {
   background-color: var(--footer-bg);
   font-size: var(--body-font-size-xs);
   color: var(--white-bg);
+  border-top: 2px solid var( --orange-bg);
 }
 
 footer .footer > div {

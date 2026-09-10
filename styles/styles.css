@@ -22,6 +22,11 @@
   --orange-bg:#e8651b;
   --button-box-shadow:var(--orange-bg);
 
+ /* card shadow*/
+    --card-shadow:0 2px 8px rgb(0 0 0 / 8%);
+    --card-hover-shadow:0 8px 20px rgb(0 0 0 / 15%);
+
+
 --forest-green: #0f1a14;
 --warm-orange: #e8651b;
 --soft-cream: #f5f1eb;

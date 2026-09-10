@@ -11,13 +11,15 @@
   border: 1px solid #dadada;
   background-color: var(--background-color);
   border-radius: 12px;
+  box-shadow: var(--card-shadow);
 }
+.cards > ul > li:hover{box-shadow: var(--card-hover-shadow);}
 
 .cards .cards-card-body {
   margin: 16px;
 }
 
-.cards .cards-card-image {
+.cards .cards-card-image {  
   line-height: 0;
 }
 
@@ -26,3 +28,12 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;border-radius: 12px 12px 0 0;
 }
+
+/* this section for cream cards eyebor parts*/
+.section.cream .cards .cards-card-body p:first-child,.section .cards .cards-card-body p:first-child
+{background: var(--warm-orange);padding:0.25em 0.75em; color: var(--white-bg);
+    width: auto;border-radius:0.75em;display: inline-block;line-height: 1.2;text-transform: uppercase;font-size:14px;font-weight: 500;text-shadow: 1px 0 0 var(--text-color);
+}
+.section.forest-green .cards .cards-card-body{background:transparent;text-shadow: none;color: #999e9c;}
+.section.forest-green .cards > ul > li{background: #1d2722; color: #999e9c;border: 1px solid #474848;}
+.section.forest-green .cards .cards-card-body h4{color:var(--white-bg);}

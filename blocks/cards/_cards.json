@@ -42,11 +42,11 @@
           "label": "Image",
           "multi": false
         },
-         {
+        {
           "component": "text",
           "name": "Eyebro",
           "value": "",
-          "label": "Eyebro",
+          "label": "text",
           "valueType": "string"
         },
         {
