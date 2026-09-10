@@ -26,6 +26,7 @@
 --warm-orange: #e8651b;
 --soft-cream: #f5f1eb;
 --footer-bg:#0b1f1a;
+--green-text-color:#0b1f1a;
 --footer-border:#f26522;
 
   /* fonts */
@@ -239,8 +240,8 @@ button.button.primary:disabled:focus-visible {
 
 a.button.secondary,
 button.button.secondary {
-  border-color: var(--text-color);
-  background-color: transparent;
+  border-color: var(--white-bg);
+  background-color:var(--white-bg);
   color: var(--text-color);
 }
 
@@ -248,8 +249,8 @@ a.button.secondary:hover,
 a.button.secondary:focus-visible,
 button.button.secondary:hover,
 button.button.secondary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--light-color);
+  border-color: rgb(from var(--white-bg) r g b / 70%);
+  background-color: rgb(from var(--white-bg) r g b / 70%);
   color: var(--dark-color);
 }
 
