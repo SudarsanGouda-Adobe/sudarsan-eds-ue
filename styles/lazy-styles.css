@@ -1,4 +1,14 @@
 .section{background:transparent}
 main .section.highlight{background: var(--warm-orange)!important;}
 .section.cream{background: var(--soft-cream);}
-.section.forest-green{background: var(--forest-green);color: (--white-bg);}
+.section.forest-green{background: var(--forest-green); padding: 40px 0;}
+.section.forest-green .default-content-wrapper{
+        width: min(100%, 750px);    
+        margin: 0 auto;
+        text-align: left;       
+}
+.section.forest-green h2{color: var(--white-bg);}
+.section.forest-green p{color: rgb(from var(--white-bg) r g b / 70%);line-height: 1.7;}
+@media (width <= 768px){
+    .section.forest-green{padding: 48px 16px;}
+}
