@@ -246,6 +246,40 @@
             "value": "secondary"
           }
         ]
+      },
+      {
+        "component": "aem-content",
+        "name": "link2",
+        "label": "Link2"
+      },
+      {
+        "component": "text",
+        "name": "link2Text",
+        "label": "Text"
+      },
+      {
+        "component": "text",
+        "name": "link2Title",
+        "label": "Title"
+      },
+      {
+        "component": "select",
+        "name": "link2Type",
+        "label": "Type",
+        "options": [
+          {
+            "name": "default",
+            "value": ""
+          },
+          {
+            "name": "primary",
+            "value": "primary"
+          },
+          {
+            "name": "secondary",
+            "value": "secondary"
+          }
+        ]
       }
     ]
   }

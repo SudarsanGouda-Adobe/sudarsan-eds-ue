@@ -35,3 +35,13 @@
     padding: 40px 32px;
   }
 }
+
+
+/**for big screen with 980px and center conter */
+.hero > div:nth-child(2) > div,
+.hero > div:nth-child(3) > div {
+  max-width: 980px;
+  margin: 0 auto;
+  width: 100%;
+}
+
