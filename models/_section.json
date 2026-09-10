@@ -41,6 +41,14 @@
              {
               "name": "SForest Green",
               "value": "forest-green"
+            },
+            {
+              "name":"Editorial",
+              "value":"editorial"
+            },
+             {
+              "name":"Content Center",
+              "value":"content-center"
             }
           ]
         }
