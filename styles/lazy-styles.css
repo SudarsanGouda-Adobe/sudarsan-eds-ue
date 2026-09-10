@@ -1,7 +1,7 @@
 .section{background:transparent}
 main .section.highlight{background: var(--warm-orange)!important;}
 .section.cream{background: var(--soft-cream);}
-.section.forest-green{background: var(--forest-green); padding: 40px 0;}
+.section.forest-green{background: var(--forest-green); padding: 40px 0;color:var(--white-bg)}
 .section.forest-green.editorial .default-content-wrapper, .section.cream.editorial .default-content-wrapper {
         width: min(100%, 750px);    
         margin: 0 auto;

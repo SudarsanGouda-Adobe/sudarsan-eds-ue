@@ -85,7 +85,7 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
+  font-size: var(--body-font-size-s);
   line-height: 1.6;
 }
 
@@ -310,7 +310,8 @@ main img {
 
 /* sections */
 main > .section {
-  margin: 40px 0;
+  /* margin: 40px 0; */
+  margin: 0;
 }
 
 main > .section > div {
