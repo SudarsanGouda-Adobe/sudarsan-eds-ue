@@ -37,3 +37,5 @@
 .section.forest-green .cards .cards-card-body{background:transparent;text-shadow: none;color: #999e9c;}
 .section.forest-green .cards > ul > li{background: #1d2722; color: #999e9c;border: 1px solid #474848;}
 .section.forest-green .cards .cards-card-body h4{color:var(--white-bg);}
+.section:not(.cream):not(.orest-green):not(.highlight):not(.hero-container){padding: 20px 0;}
+

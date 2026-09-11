@@ -1,8 +1,9 @@
+header{position: sticky;background: var(  --white-bg);top: 0;z-index: 999;}
 /* header and nav layout */
 header .nav-wrapper {
   background-color: var(--background-color);
   width: 100%;
-  z-index: 2;
+  /* z-index: 999; */
   position: fixed;
 }
 
@@ -17,7 +18,7 @@ header nav {
   margin: auto;
   max-width: 1248px;
   height: var(--nav-height);
-  padding: 0 24px;
+  /* padding: 0 24px; */
   font-family: var(--body-font-family);
 }
 
